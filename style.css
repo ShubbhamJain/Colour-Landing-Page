@@ -1,0 +1,46 @@
+body{
+	background: url(flowers.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.hero{
+	color: #fff;
+	margin-top: 20%;
+	text-align: center;
+	font-size: 75px;
+	line-height: 1.1em;
+	font-family: 'Aguafina Script', cursive;
+}
+
+.image{
+	height: 150px;
+	width: 250px;
+}
+
+@media(max-width: 575px){
+	body{
+		background: #919191;
+		background-size: cover;
+	}
+}
+
+@media(min-width: 576px) and (max-width: 767px){
+	body{
+		background: #ffc85b;
+		background-size: cover;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	body{
+		background: #4286f4;
+		background-size: cover;
+	}
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+	body{
+		background: #c40000;
+		background-size: cover;
+	}
+}
